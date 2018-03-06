@@ -1,0 +1,53 @@
+body,
+html {
+    height: 100%;
+    margin: 0;
+}
+
+header {
+    background: #000000;
+    color: #ffffff;
+    padding-top: 5px;
+    font-size: 25px;
+    border-bottom: #f51d1d 3px solid;
+}
+
+h1 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.bgimg {
+    background-image: url('/images/240550_Abstract Dots 2.jpg');
+    height: 80%;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    color: white;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 25px;
+}
+
+.middle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    background: transparent;
+    border: 1px solid #f92929;
+    padding: 10px;
+    box-shadow: 0 0 5px 3px #f81010;
+}
+
+hr {
+    margin: auto;
+    width: 40%;
+}
+
+footer {
+    padding: 15px;
+    color: #ffffff;
+    background-color: #000000;
+    text-align: center;
+    border-top: #f51d1d 3px solid;
+}
